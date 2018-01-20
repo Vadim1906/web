@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="test_css.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+		
+	</script>
+	<title></title>
+</head>
+<body>
+	<header>
+    	<h1>Head</h1>
+	</header>
+	
+	<div class="test_red">
+		<input class = "test_red_button" type="button" value="Hello"/>
+	</div>
+	<div class="test_green">
+		<input class = "test_blue_button" type="button" value="Hello"/>
+	</div>
+	<div class="test_blue"></div>
+	<footer>
+		<h2>Foot</h2>
+	</footer>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+
+
+		$(".test_red_button") .click(function(event){
+			alert("Hello");
+		});
+
+   		$(".test_blue_button").click(function(event){
+      		//alert("Hello");
+      		$(this).mouseover(function(){
+      			$(this).css("background", "white")
+      		});
+      		$(this).mouseout(function(){
+      			$(this).css("background", "yellow")
+      		});
+   		});
+   		
+   		
+
+	});
+
+</script>
+
+</body>
+</html>
