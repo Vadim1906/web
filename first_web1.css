@@ -1,0 +1,143 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+	background: #3fb3a6
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+.main{
+	width: 86%;
+	min-height: 800px;
+	background: white;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+}
+header{
+	width: 86%;
+	height: 270px;
+	background-image: url(ny.jpg);
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 7%;
+}
+.links{
+	width: 100%;
+	height: 70px;
+	border-bottom:solid 1px;
+	border-color: grey
+
+}
+.home, .about{
+	width: 60px;
+	height: 25px;
+	font-size: 24px;
+	color: grey;
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 30%;
+
+}
+.about{
+	border-bottom: solid 4px;
+	border-bottom-color: grey;
+	border-bottom-width: 100%;
+	padding-bottom: 5px;
+}
+.about_a{
+	color: #3fb3a6;
+}
+.hello{
+	width: 25%;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	margin-top: 10%;
+	height: 25px;
+	background: white;
+	color: grey;
+	font-size: 16px;
+	text-align: center;
+}
+.about_autor{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-top: 10%;
+	height: 250px;
+	border-bottom: dashed 2px;
+	border-bottom-color: grey;
+	border-bottom-width: 100%;
+	border-top: solid 0.5px;
+	border-top-color: grey;
+	border-top-width: 100%;
+	padding-top: 5%;
+	padding-right: 5%;
+	color: grey;
+}
+.media{
+	height: 185px;
+	width: 100%;
+}
+.social{
+	width: 25%;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	margin-top: 5%;
+	height: 25px;
+	text-align: center;
+	color: grey;
+
+}
+.vk{
+	margin-left: 2%;
+	margin-top: 5%;
+	width: 30%;
+	height: 64px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.vk_icon{
+	width: 64px;
+	height: 64px;
+	background-image: url(vk.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.twitter{
+	margin-left: 2%;
+	margin-top: 5%;
+	width: 30%;
+	height: 64px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.twitter_icon{
+	width: 64px;
+	height: 64px;
+	background-image: url(twitter.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.mail{
+	margin-left: 2%;
+	margin-top: 5%;
+	width: 30%;
+	height: 64px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.mail_icon{
+	width: 64px;
+	height: 64px;
+	background-image: url(mail.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
