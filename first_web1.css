@@ -29,7 +29,9 @@ header{
 	width: 100%;
 	height: 70px;
 	border-bottom:solid 1px;
-	border-color: grey
+	border-color: grey;
+	position: relative;
+
 
 }
 .home, .about{
@@ -52,6 +54,76 @@ header{
 .about_a{
 	color: #3fb3a6;
 }
+/*.photo{
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	border-radius: 200px;
+	background: #3fb3a6;
+	position: absolute;
+	margin-left: 6%;
+	
+	bottom: -20px;
+
+	
+
+}*/
+@media screen and (max-width: 665){
+	/*.photo{
+		width: 160px;
+		height: 160px;
+		display: inline-block;
+		border-radius: 200px;
+		background: #3fb3a6;
+		position: absolute;
+		margin-left: 2%;
+		
+		bottom: -20px;
+	}*/
+}
+@media screen and (max-width: 590){
+/*	.photo{
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+		border-radius: 100px;
+		background: #3fb3a6;
+		position: absolute;
+		
+		
+		bottom: -20px;
+	}*/
+	.vk{
+		margin-left: 1%;
+		margin-top: 5%;
+		width: 30%;
+		height: 64px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+	.twitter{
+		margin-left: 1%;
+		margin-top: 5%;
+		width: 30%;
+		height: 64px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+	.mail{
+		margin-left: 1%;
+		margin-top: 5%;
+		width: 30%;
+		height: 64px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+}
+
+
+
 .hello{
 	width: 25%;
 	margin-left: 37.5%;
