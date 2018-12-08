@@ -1,0 +1,31 @@
+body{
+	height: 2000px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;	
+}
+header{
+	width: 100%;
+	background-color: #2f3843;
+	position: fixed;
+
+}
+nav{
+	margin-left: 220px;
+	margin-right: 220px;
+	padding-top: 15px;
+	/*padding-bottom: 15px;*/
+	height: 46px;
+	font-size: 16px;
+}
+nav a{
+	color: white;
+/*	margin-top: auto;
+	margin-bottom: auto;*/
+/*	padding: 20px;*/
+/*	padding-right: 25px;*/
+/*	width: 68px;*/
+/*	height: 46px;*/
+	margin-left: 50px;
+	text-decoration: none;
+}
